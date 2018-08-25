@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class MenuPanelController : MonoBehaviour {
 
+    public Animator menuSummon;
+
 	// Use this for initialization
 	void Start () {
-		
+        menuSummon.SetBool("Shown", false);
 	}
 	
 	// Update is called once per frame
@@ -14,8 +16,14 @@ public class MenuPanelController : MonoBehaviour {
      
 	}
 
-    public void translatePanel()
+    public void ShowMenu()
     {
-        transform.Translate(Vector3.right * .5f);
+        menuSummon.SetBool("Shown", true);
     }
+
+    public void HideMenu()
+    {
+        menuSummon.SetBool("Shown", false);
+    }
+  
 }
