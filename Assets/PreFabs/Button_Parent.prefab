@@ -212,7 +212,7 @@ MonoBehaviour:
   openMenu: {fileID: 0}
   closeMenu: {fileID: 0}
   hoverFx: {fileID: 8300000, guid: ed856069e3565294fa7a8e20d2603758, type: 3}
-  clickFx: {fileID: 8300000, guid: 36184102007257147bbc310384b8180a, type: 3}
+  clickFx: {fileID: 8300000, guid: 773ac5073c9c7ef4fa6b15c956eea9c5, type: 3}
 --- !u!114 &114566107002536458
 MonoBehaviour:
   m_ObjectHideFlags: 1
