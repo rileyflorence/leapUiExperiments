@@ -226,14 +226,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isSelected: 0
   selectedColor: {r: 0.9215687, g: 0.6509804, b: 0.003921569, a: 0.9019608}
-  selectedPrimaryHoverColor: {r: 2.1185474, g: 0.97608465, b: 0, a: 0.9019608}
+  selectedPrimaryHoverColor: {r: 2.433572, g: 1.1212269, b: 0, a: 0.9019608}
+  isGrayed: 0
+  grayedColor: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 0.4}
+  grayedPrimaryHoverColor: {r: 1.7207954, g: 1.7207954, b: 1.7207954, a: 0.4}
   useHover: 0
   usePrimaryHover: 1
   defaultColor: {r: 1, g: 1, b: 1, a: 0.9019608}
   suspendedColor: {r: 1, g: 0, b: 0, a: 1}
   hoverColor: {r: 1, g: 0.9599161, b: 0.5424528, a: 1}
-  primaryHoverColor: {r: 2.1435473, g: 1.4140679, b: 0.94271195, a: 0.9019608}
-  pressedColor: {r: 2.4884872, g: 1.6413728, b: 1.0916476, a: 0.9019608}
+  primaryHoverColor: {r: 2.433572, g: 1.6181341, b: 1.0957445, a: 0.9019608}
+  pressedColor: {r: 2.79544, g: 1.8441123, b: 1.2294083, a: 0.9019608}
 --- !u!114 &114859270932756694
 MonoBehaviour:
   m_ObjectHideFlags: 1

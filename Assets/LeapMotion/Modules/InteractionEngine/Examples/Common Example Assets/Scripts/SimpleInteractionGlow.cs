@@ -30,6 +30,13 @@ public class SimpleInteractionGlow : MonoBehaviour {
   [ColorUsageAttribute(true, true)]
   public Color selectedPrimaryHoverColor = new Color(235f, 166f, 1f, 1f);
 
+    [Tooltip("This is to show if a button has been selected.")]
+    public bool isGrayed = false;
+    public Color grayedColor = new Color(235f, 166f, 1f, 1f);
+
+    [ColorUsageAttribute(true, true)]
+    public Color grayedPrimaryHoverColor = new Color(235f, 166f, 1f, 1f);
+
     [Tooltip("If enabled, the object will lerp to its hoverColor when a hand is nearby.")]
   public bool useHover = true;
 
@@ -75,6 +82,10 @@ public class SimpleInteractionGlow : MonoBehaviour {
             {
                 targetColor = selectedColor;
             }
+            else if (isGrayed)
+            {
+                targetColor = grayedColor;
+            }
             else
             {
                 targetColor = defaultColor;
@@ -86,6 +97,9 @@ public class SimpleInteractionGlow : MonoBehaviour {
                 if (isSelected)
                 {
                     targetColor = selectedPrimaryHoverColor;
+                }
+                else if (isGrayed){
+                    targetColor = grayedPrimaryHoverColor;
                 }
                 else
                 {
