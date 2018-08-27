@@ -25,5 +25,11 @@ public class MenuPanelController : MonoBehaviour {
     {
         menuSummon.SetBool("Shown", false);
     }
-  
+
+    public void ProfileActivate()
+    {
+        menuSummon.SetBool("profile", true);
+    }
+
+
 }
