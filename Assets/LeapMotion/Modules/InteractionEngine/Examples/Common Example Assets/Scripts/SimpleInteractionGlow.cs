@@ -27,8 +27,10 @@ public class SimpleInteractionGlow : MonoBehaviour {
   public bool isSelected = false;
   public Color selectedColor = new Color(235f,166f,1f,1f);
 
-  [ColorUsageAttribute(true, true)]
+    [ColorUsageAttribute(true, true)]
   public Color selectedPrimaryHoverColor = new Color(235f, 166f, 1f, 1f);
+
+
 
     [Tooltip("This is to show if a button has been selected.")]
     public bool isGrayed = false;
@@ -45,7 +47,7 @@ public class SimpleInteractionGlow : MonoBehaviour {
 
   [Header("InteractionBehaviour Colors")]
   public Color defaultColor = Color.Lerp(Color.black, Color.white, 0.1F);
-  public Color suspendedColor = Color.red;
+    public Color suspendedColor = Color.red;
   public Color hoverColor = Color.Lerp(Color.black, Color.white, 0.7F);
 
  [ColorUsageAttribute(true, true)]
@@ -58,21 +60,25 @@ public class SimpleInteractionGlow : MonoBehaviour {
 
   private Material _material;
 
-  private InteractionBehaviour _intObj;
+
+    private InteractionBehaviour _intObj;
 
   void Start() {
     _intObj = GetComponent<InteractionBehaviour>();
 
     Renderer renderer = GetComponent<Renderer>();
-    if (renderer == null) {
+        if (renderer == null) {
       renderer = GetComponentInChildren<Renderer>();
     }
     if (renderer != null) {
       _material = renderer.material;
     }
-  }
 
-  void Update() {
+
+
+    }
+
+    void Update() {
     if (_material != null) {
 
             // The target color for the Interaction object will be determined by various simple state checks.
