@@ -28,26 +28,8 @@ public class MenuPanelController : MonoBehaviour {
 
     public void ProfileActivate()
     {
-        menuSummon.SetTrigger("ProfileTrigger");
+        menuSummon.SetBool("profile", true);
     }
-
-    public void TriggerPanel2()
-    {
-        menuSummon.SetTrigger("Panel2Open");
-    }
-
-
-    public void SetLeftOnce()
-    {
-        menuSummon.SetBool("LeftOnce", true);
-    }
-
-    public void UnsetLeftOnce()
-    {
-        menuSummon.SetBool("LeftOnce", false);
-    }
-
-
 
 
 }
