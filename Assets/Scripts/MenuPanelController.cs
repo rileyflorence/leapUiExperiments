@@ -24,16 +24,31 @@ public class MenuPanelController : MonoBehaviour {
     public void HideMenu()
     {
         menuSummon.SetBool("Shown", false);
+        menuSummon.SetBool("SettingsSelected", false);
+        menuSummon.SetBool("LeftOnce", false);
+        menuSummon.SetBool("LeftTwice", false);
+        menuSummon.SetBool("Panel2IsOpen", false);
+        menuSummon.SetBool("ProfileSelected", false);
     }
 
     public void ProfileActivate()
     {
-        menuSummon.SetTrigger("ProfileTrigger");
+        menuSummon.SetBool("ProfileSelected", true);
     }
 
-    public void TriggerPanel2()
+    public void ProfileDeactivate()
     {
-        menuSummon.SetTrigger("Panel2Open");
+        menuSummon.SetBool("ProfileSelected", false);
+    }
+
+    public void SetPanel2()
+    {
+        menuSummon.SetBool("Panel2IsOpen", true);
+    }
+
+    public void UnsetPanel2()
+    {
+        menuSummon.SetBool("Panel2IsOpen", false);
     }
 
 
@@ -46,8 +61,6 @@ public class MenuPanelController : MonoBehaviour {
     {
         menuSummon.SetBool("LeftOnce", false);
     }
-
-
 
 
 }
