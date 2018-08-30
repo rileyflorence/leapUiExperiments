@@ -10,8 +10,8 @@ public class MenuLocation : MonoBehaviour {
 
 	public void SetMenuLocation ()
     {
-        menuLocation.LookAt(player.position + new Vector3(0, 0.02f, 0));
-        menuLocation.position = palmLocation.position + new Vector3 (0, 0.3f, 0);
+        menuLocation.position = palmLocation.position + new Vector3 (0, 0.25f, 0);
+        menuLocation.LookAt(player.position + new Vector3 (0, 0.05f, 0));
     }
 
 }
