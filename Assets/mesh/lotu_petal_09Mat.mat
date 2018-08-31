@@ -6,9 +6,9 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Skybox
-  m_Shader: {fileID: 4800000, guid: 66f7084c4ebb32343be4ef70d409aeb5, type: 3}
-  m_ShaderKeywords: _SUNDISK_HIGH_QUALITY
+  m_Name: lotu_petal_09Mat
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -55,42 +55,22 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AtmosphereThickness: 1.92
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Exposure: 1.3
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _SkyExponent1: 8.5
-    - _SkyExponent2: 3
-    - _SkyIntensity: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _SunAlpha: 550
-    - _SunAltitude: 38
-    - _SunAzimuth: 20
-    - _SunBeta: 1
-    - _SunDisk: 2
-    - _SunIntensity: 1.44
-    - _SunSize: 0.04
-    - _SunSizeConvergence: 3.6
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GroundColor: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
-    - _SkyColor1: {r: 0, g: 0.32675087, b: 0.34901962, a: 0}
-    - _SkyColor2: {r: 0, g: 0.25998387, b: 0.34901962, a: 0}
-    - _SkyColor3: {r: 0, g: 0.34901962, b: 0.039362215, a: 0}
-    - _SkyTint: {r: 0.8773585, g: 0.12829298, b: 0.12829298, a: 1}
-    - _SunColor: {r: 1, g: 0.9867585, b: 0.87058824, a: 1}
-    - _SunVector: {r: 0.269, g: 0.615, b: 0.74, a: 0}
+    - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}

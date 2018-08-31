@@ -1,0 +1,277 @@
+fileFormatVersion: 2
+guid: 81db0fbdf0ce53a4d9aeca0f7bb28772
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: lotu_petal_00
+    100002: lotu_petal_01
+    100004: lotu_petal_02
+    100006: lotu_petal_03
+    100008: lotu_petal_04
+    100010: lotu_petal_05
+    100012: lotu_petal_06
+    100014: lotu_petal_07
+    100016: lotu_petal_08
+    100018: lotu_petal_09
+    100020: lotu_petal_10
+    100022: lotu_petal_11
+    100024: lotu_petal_12
+    100026: lotu_petal_13
+    100028: lotu_petal_14
+    100030: lotu_petal_15
+    100032: lotus_heart
+    100034: //RootNode
+    400000: lotu_petal_00
+    400002: lotu_petal_01
+    400004: lotu_petal_02
+    400006: lotu_petal_03
+    400008: lotu_petal_04
+    400010: lotu_petal_05
+    400012: lotu_petal_06
+    400014: lotu_petal_07
+    400016: lotu_petal_08
+    400018: lotu_petal_09
+    400020: lotu_petal_10
+    400022: lotu_petal_11
+    400024: lotu_petal_12
+    400026: lotu_petal_13
+    400028: lotu_petal_14
+    400030: lotu_petal_15
+    400032: lotus_heart
+    400034: //RootNode
+    2100000: lotu_petal_00Mat
+    2100002: lotu_petal_01Mat
+    2100004: lotu_petal_02Mat
+    2100006: lotu_petal_03Mat
+    2100008: lotu_petal_04Mat
+    2100010: lotu_petal_05Mat
+    2100012: lotu_petal_06Mat
+    2100014: lotu_petal_07Mat
+    2100016: lotu_petal_08Mat
+    2100018: lotu_petal_09Mat
+    2100020: lotu_petal_10Mat
+    2100022: lotu_petal_11Mat
+    2100024: lotu_petal_12Mat
+    2100026: lotu_petal_13Mat
+    2100028: lotu_petal_14Mat
+    2100030: lotu_petal_15Mat
+    2100032: lotus_heartMat
+    2300000: lotu_petal_00
+    2300002: lotu_petal_01
+    2300004: lotu_petal_02
+    2300006: lotu_petal_03
+    2300008: lotu_petal_04
+    2300010: lotu_petal_05
+    2300012: lotu_petal_06
+    2300014: lotu_petal_07
+    2300016: lotu_petal_08
+    2300018: lotu_petal_09
+    2300020: lotu_petal_10
+    2300022: lotu_petal_11
+    2300024: lotu_petal_12
+    2300026: lotu_petal_13
+    2300028: lotu_petal_14
+    2300030: lotu_petal_15
+    2300032: lotus_heart
+    3300000: lotu_petal_00
+    3300002: lotu_petal_01
+    3300004: lotu_petal_02
+    3300006: lotu_petal_03
+    3300008: lotu_petal_04
+    3300010: lotu_petal_05
+    3300012: lotu_petal_06
+    3300014: lotu_petal_07
+    3300016: lotu_petal_08
+    3300018: lotu_petal_09
+    3300020: lotu_petal_10
+    3300022: lotu_petal_11
+    3300024: lotu_petal_12
+    3300026: lotu_petal_13
+    3300028: lotu_petal_14
+    3300030: lotu_petal_15
+    3300032: lotus_heart
+    4300000: lotu_petal_00
+    4300002: lotu_petal_01
+    4300004: lotu_petal_02
+    4300006: lotu_petal_03
+    4300008: lotu_petal_04
+    4300010: lotu_petal_05
+    4300012: lotu_petal_06
+    4300014: lotu_petal_07
+    4300016: lotu_petal_08
+    4300018: lotu_petal_09
+    4300020: lotu_petal_10
+    4300022: lotu_petal_11
+    4300024: lotu_petal_12
+    4300026: lotu_petal_13
+    4300028: lotu_petal_14
+    4300030: lotu_petal_15
+    4300032: lotus_heart
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lotu_petal_00Mat
+    second: {fileID: 2100000, guid: ca28bd7bf218c714da0331eae1df0903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lotu_petal_01Mat
+    second: {fileID: 2100000, guid: ca28bd7bf218c714da0331eae1df0903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lotu_petal_02Mat
+    second: {fileID: 2100000, guid: ca28bd7bf218c714da0331eae1df0903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lotu_petal_03Mat
+    second: {fileID: 2100000, guid: ca28bd7bf218c714da0331eae1df0903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lotu_petal_04Mat
+    second: {fileID: 2100000, guid: ca28bd7bf218c714da0331eae1df0903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lotu_petal_05Mat
+    second: {fileID: 2100000, guid: ca28bd7bf218c714da0331eae1df0903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lotu_petal_06Mat
+    second: {fileID: 2100000, guid: ca28bd7bf218c714da0331eae1df0903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lotu_petal_07Mat
+    second: {fileID: 2100000, guid: ca28bd7bf218c714da0331eae1df0903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lotu_petal_08Mat
+    second: {fileID: 2100000, guid: ca28bd7bf218c714da0331eae1df0903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lotu_petal_09Mat
+    second: {fileID: 2100000, guid: ca28bd7bf218c714da0331eae1df0903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lotu_petal_10Mat
+    second: {fileID: 2100000, guid: ca28bd7bf218c714da0331eae1df0903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lotu_petal_11Mat
+    second: {fileID: 2100000, guid: ca28bd7bf218c714da0331eae1df0903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lotu_petal_12Mat
+    second: {fileID: 2100000, guid: ca28bd7bf218c714da0331eae1df0903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lotu_petal_13Mat
+    second: {fileID: 2100000, guid: ca28bd7bf218c714da0331eae1df0903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lotu_petal_14Mat
+    second: {fileID: 2100000, guid: ca28bd7bf218c714da0331eae1df0903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lotu_petal_15Mat
+    second: {fileID: 2100000, guid: ca28bd7bf218c714da0331eae1df0903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lotus_heartMat
+    second: {fileID: 2100000, guid: ca28bd7bf218c714da0331eae1df0903, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
