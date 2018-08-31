@@ -3,42 +3,70 @@ guid: 232287549a14af3448ca09a3f07a7f73
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: mesh_113547677
-    100002: mesh_188106568
-    100004: mesh_688645330
-    100006: //RootNode
-    400000: mesh_113547677
-    400002: mesh_188106568
-    400004: mesh_688645330
-    400006: //RootNode
-    2100000: material_24___17595
-    2100002: material_18___17595
-    2100004: material_8___17595
-    2300000: mesh_113547677
-    2300002: mesh_188106568
-    2300004: mesh_688645330
-    3300000: mesh_113547677
-    3300002: mesh_188106568
-    3300004: mesh_688645330
-    4300000: mesh_113547677
-    4300002: mesh_688645330
-    4300004: mesh_188106568
+    100000: Camera
+    100002: Lamp
+    100004: mesh_1611186748
+    100006: mesh_1835596300
+    100008: mesh_253512945
+    100010: mesh_307446706
+    100012: mesh_715268651
+    100014: //RootNode
+    400000: Camera
+    400002: Lamp
+    400004: mesh_1611186748
+    400006: mesh_1835596300
+    400008: mesh_253512945
+    400010: mesh_307446706
+    400012: mesh_715268651
+    400014: //RootNode
+    2000000: Camera
+    2100000: material_19___177.004
+    2100002: material_8___177.003
+    2100004: material_24___177
+    2100006: material_24___177.003
+    2100008: material_24___177.001
+    2300000: mesh_1611186748
+    2300002: mesh_1835596300
+    2300004: mesh_253512945
+    2300006: mesh_307446706
+    2300008: mesh_715268651
+    3300000: mesh_1611186748
+    3300002: mesh_1835596300
+    3300004: mesh_253512945
+    3300006: mesh_307446706
+    3300008: mesh_715268651
+    4300000: mesh_253512945
+    4300002: mesh_715268651
+    4300004: mesh_307446706
+    4300006: mesh_1611186748
+    4300008: mesh_1835596300
+    10800000: Lamp
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: material_18___17595
-    second: {fileID: 2100000, guid: 9925f811dcd7e644daca08ceb02fb15d, type: 2}
+      name: material_19___177.004
+    second: {fileID: 2100000, guid: 79837eab42e9a5c468487ec5c2371e0c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: material_24___17595
-    second: {fileID: 2100000, guid: 593ebccf5c2137c4aa73914d98292157, type: 2}
+      name: material_24___177
+    second: {fileID: 2100000, guid: 1563e1fa33520024f9495adff989a24d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: material_8___17595
-    second: {fileID: 2100000, guid: 58718a8e94c678a49b23364b5db9e2b5, type: 2}
+      name: material_24___177.001
+    second: {fileID: 2100000, guid: 4b3655c581ff10d40832efe0992c7b06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_24___177.003
+    second: {fileID: 2100000, guid: 81968b05dc384a947a24fbd65db3da35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_8___177.003
+    second: {fileID: 2100000, guid: 1eb1f69c82875ba40a595ca5d6b6bc29, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
