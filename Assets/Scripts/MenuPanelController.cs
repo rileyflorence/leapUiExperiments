@@ -29,6 +29,8 @@ public class MenuPanelController : MonoBehaviour {
         menuSummon.SetBool("LeftTwice", false);
         menuSummon.SetBool("Panel2IsOpen", false);
         menuSummon.SetBool("ProfileSelected", false);
+        menuSummon.SetBool("ItemsSelected", false);
+
     }
 
     public void ProfileActivate()
@@ -62,5 +64,24 @@ public class MenuPanelController : MonoBehaviour {
         menuSummon.SetBool("LeftOnce", false);
     }
 
+    public void SetLeftTwice()
+    {
+        menuSummon.SetBool("LeftTwice", true);
+    }
+
+    public void UnsetLeftTwice()
+    {
+        menuSummon.SetBool("LeftTwice", false);
+    }
+
+    public void SetItems()
+    {
+        menuSummon.SetBool("ItemsSelected", true);
+    }
+
+    public void UnsetItems()
+    {
+        menuSummon.SetBool("ItemsSelected", false);
+    }
 
 }
